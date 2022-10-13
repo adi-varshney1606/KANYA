@@ -72,7 +72,7 @@ section:nth-child(even){
 
 .heading span{
     text-transform: uppercase;
-    color:red;
+    color:rgb(72, 241, 106);
 }
 
 .btn{
@@ -83,7 +83,7 @@ section:nth-child(even){
     border:var(--border);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    color:red;
+    color:rgb(72, 241, 106);
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
@@ -92,18 +92,18 @@ section:nth-child(even){
 .btn span{
     padding:.7rem 1rem;
     border-radius: .5rem;
-    background: red;
+    background: rgb(72, 241, 106);
     color:#fff;
     margin-left: .5rem;
 }
 
 .btn:hover{
-    background: red;
+    background: rgb(72, 241, 106);
     color:#fff;
 }
 
 .btn:hover span{
-    color: red;
+    color: rgb(72, 241, 106);
     background:#fff;
     margin-left: 1rem;
 }
@@ -126,7 +126,7 @@ section:nth-child(even){
 }
 
 .header .logo i{
-    color: red;
+    color: rgb(72, 241, 106);
 }
 
 .header .navbar a{
@@ -136,14 +136,14 @@ section:nth-child(even){
 }
 
 .header .navbar a:hover{
-    color: red;
+    color: rgb(72, 241, 106);
 }
 
 #menu-btn{
     font-size: 2.5rem;
     border-radius: .5rem;
     background: #eee;
-    color:red;
+    color:rgb(72, 241, 106);
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
@@ -201,7 +201,7 @@ section:nth-child(even){
 
 .icons-container .icons i{
     font-size: 4.5rem;
-    color:red;
+    color:rgb(72, 241, 106);
     padding-bottom: .7rem;
 }
 
@@ -232,7 +232,7 @@ section:nth-child(even){
 }
 
 .services .box-container .box i{
-    color: red;
+    color: rgb(72, 241, 106);
     font-size: 5rem;
     padding-bottom: .5rem;
 }
@@ -316,7 +316,7 @@ section:nth-child(even){
 }
 
 .doctors .box-container .box span{
-    color:red;
+    color:rgb(72, 241, 106);
     font-size: 1.5rem;
 }
 
@@ -329,14 +329,14 @@ section:nth-child(even){
     width: 5rem;
     line-height: 4.5rem;
     font-size: 2rem;
-    color:red;
+    color:rgb(72, 241, 106);
     border-radius: .5rem;
     border:var(--border);
     margin:.3rem;
 }
 
 .doctors .box-container .box .share a:hover{
-    background:red;
+    background:rgb(72, 241, 106);
     color:#fff;
     box-shadow: var(--box-shadow);
 }
@@ -439,7 +439,7 @@ section:nth-child(even){
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:red;
+    background:rgb(72, 241, 106);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
@@ -493,12 +493,12 @@ section:nth-child(even){
 }
 
 .blogs .box-container .box .content .icon a:hover{
-    color:red;
+    color:rgb(72, 241, 106);
 }
 
 .blogs .box-container .box .content .icon a i{
     padding-right: .5rem;
-    color: red;
+    color: rgb(72, 241, 106);
 }
 
 .blogs .box-container .box .content h3{
@@ -534,7 +534,7 @@ section:nth-child(even){
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:red;
+    color:rgb(72, 241, 106);
 }
 
 .footer .box-container .box a:hover i{
@@ -552,7 +552,7 @@ section:nth-child(even){
 }
 
 .footer .credit span{
-    color:red;
+    color:rgb(72, 241, 106);
 }
 
 
