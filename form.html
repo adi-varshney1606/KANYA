@@ -1,29 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Registration</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <title>REGiSTRATION</title>
   </head>
+  <body>
+    <div class="FORM-BOX">
+      <h2>Register Now</h2>
+      <div class="inputBox">
+        <label
+          >First Name:<input
+            type="text"
+            name="fname"
+            placeholder="First name"
+            required
+        /></label>
+        <label
+          >Last Name:<input
+            type="text"
+            name="lname"
+            placeholder="Last name"
+            required
+        /></label>
+      </div>
 
-  <section class="register" id="book">
-    <h1 class="heading"><span>Registration</span> Form</h1>
+      <div class="inputBox">
+        <label
+          >Email:<input
+            type="email"
+            name="mail"
+            pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+            placeholder="email-id"
+            required
+        /></label>
+      </div>
 
-    <div class="row">
-      <form action="">
-        <h3>Register Now</h3>
-        <input type="text" placeholder="Your Name" class="box"/>
-        <input type="number" placeholder="Your Number" class="box" />
-        <input type="date" placeholder="D-O-B" class="box" />
-        <input type="text" placeholder="Blood Group" class="box" />
-        <input type="email" placeholder="Your Email" class="box" />
-        <input type="text" placeholder="Your Address" class="box" />
-        <input type="text" placeholder="Your Disease Profile" class="box" />
-        <input type="number" placeholder="Emergency number 1" class="box" />
-        <input type="number" placeholder="Emergency number 2" class="box" />
-        <input type="number" placeholder="Emergency number 3" class="box" />
-        <input type="number" placeholder="Emergency number 4" class="box" />
-        <input type="submit" value="REGISTER" class="btn" />
-      </form>
+      <div>
+        <label
+          >Password:<input
+            type="password"
+            name="pass"
+            pattern=".{10,}"
+            placeholder="More than 10 Characters"
+            required
+        /></label>
+      </div>
+      <h4>Select Gender:</h4>
+      <div class="inputBox">
+        <label
+          >Male:<input
+            id="male"
+            type="radio"
+            name="gender"
+            value="male"
+            required
+        /></label>
+      </div>
+      <div>
+        <label
+          >Female:<input
+            id="female"
+            type="radio"
+            name="gender"
+            value="female"
+            required
+        /></label>
+      </div>
+      <div>
+        <label
+          >Other:<input
+            id="other"
+            type="radio"
+            name="gender"
+            value="other"
+            required
+        /></label>
+      </div>
 
-  </section>
+      <div class="inputBox">
+        <label
+          >Contact no. :<input
+            type="text"
+            name="pass"
+            pattern=".{10,}"
+            placeholder="mobile no."
+            required
+        /></label>
+      </div>
+
+      <div class="inputBox">
+        <label
+          >Alternate no. :<input
+            type="text"
+            name="pass"
+            pattern=".{10,}"
+            placeholder="mobile no."
+            optional
+        /></label>
+      </div>
+
+      <div class="inputBox">
+        <label>Date Of Birth:<input type="date" name="dob" required /></label>
+      </div>
+      <div class="inputBox">
+        <label
+          >Blood Group:
+          <select>
+            <option value="volvo">A+</option>
+            <option value="saab">A-</option>
+            <option value="fiat">B+</option>
+            <option value="audi">B-</option>
+            <option value="volvo">AB+</option>
+            <option value="saab">AB-</option>
+            <option value="fiat">O+</option>
+            <option value="audi">O-</option>
+          </select>
+        </label>
+      </div>
+      <div class="inputBox">
+        <label
+          >Address:<input
+            type="text"
+            name="Address"
+            placeholder="Address"
+            required
+        /></label>
+      </div>
+      <div class="inputbox">
+        <h4></h4>
+        <input type="checkbox" name="agree" required /><span
+          class="slider round"
+        ></span>
+        <label>I Agree To Terms And Conditions: ></label>
+      </div>
+
+      <div class="inputBox">
+        <input type="submit" class="registerbtn" value="Submit" />
+      </div>
+    </div>
+  </body>
 </html>
