@@ -142,7 +142,6 @@ section:nth-child(even) {
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
 }
 
