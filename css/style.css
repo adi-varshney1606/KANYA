@@ -143,17 +143,18 @@ section:nth-child(even) {
 
 .dropdown {
   overflow: hidden;
+  float: right;
 }
 
 .dropdown .dropbtn {
+  float:right;
   font-size: 16px;
   border: none;
   outline: none;
   color: var(--light-color);
-  padding: 14px 16px;
+  padding-left: 20px;
   background-color: inherit;
   font-family: inherit; 
-  margin: 0; 
 }
 
 .dropdown-content {
@@ -860,6 +861,7 @@ section:nth-child(even) {
 
 
 .dos{
+  padding-top:80px;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 25px;
@@ -980,6 +982,7 @@ section:nth-child(even) {
  
  /* donts css */
 .donts {
+  padding-top:80px;
   margin-left: 25px;
   margin-right:25px;
   margin-top:25px;
