@@ -659,6 +659,7 @@ section:nth-child(even) {
   }
 }
 
+
 .register {
   background-image: url(https://c4.wallpaperflare.com/wallpaper/765/958/389/colorful-abstract-design-background-wallpaper-preview.jpg);
   background-size: cover;
@@ -766,9 +767,11 @@ section:nth-child(even) {
 
 
 /* ADDED CSS HERE */
+
+
 .img-resize{
-  width: 223px;
-  height: 340px;
+  width: 220px;
+  height: 250px;
 }
 .swiper-wrapper{
   width: 100%;
@@ -784,9 +787,131 @@ section:nth-child(even) {
   justify-content: space-around; 
   
 }
-/* .swiper-slide box{
-  justify-content: sp;
+.swiper-slide box h2{
+  align-items: center;
 }
- */
+
+
+/* dos css */
+
+
+.dos{
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.dos h2{
+  text-align: center;
+  font-size: 50px;
+  color: #09a048;
+  text-decoration: underline;
+}
+.dos .row{
+  display: flex;
+  justify-content: space-between;
+}
+.p12{
+  flex-basis: 47%;
+}
+/* .p2{
+  flex-basis: 47%;
+} */
+.dos .row  .p12{
+  background-color: #09a048;
+  font-size: 20px;
+  /* padding-left: 15px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+}
+.dos.row.p12.content p{
+  opacity: 0;
+}
+.dos.row.p12.content h1{
+  line-height: 35px;
+}
+.dos.row.p12.content:hover p{
+  cursor: pointer;
+  opacity: 1;
+}
+.dos.row.p12.content{
+  position: relative;
+}
+.dos .row.p12.content h1{
+  position: absolute;
+  padding-top: 70px;
+}
+.dos .row .p12.content:hover h1{
+  opacity:0;
+
+}
+.dos .row .p12{
+  display: flex;
+}
+.dos .row .p12 .imgs img{
+  border-radius: 50px;
+  width: 30vh;
+  height: 30vh;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.dos h1{
+  font-size: 30px;
+}
+
+
+/* .box-container{
+  height: 50%;
+} */
+
+/* .box-container .box img{
+  height: 60vh;
+  width: 100%;
+}
+.box-container-2 .box img{
+  height: 60vh;
+  width: 100%;
+} */
+
+.blogimg{
+  height: 60vh;
+  width: 100%;
+}
+.box-container-2{
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+}
+.box-container:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+/* .box-container-2:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+} */
+.box-container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+/* #blogdown{
+  justify-content: space-around;
+
+} */
+
+.box-container-2 .outer{
+  border: 2px  solid red; 
+}
+.box-container-2 .outer{
+  padding: 20px;
+  padding-right: 20px;
+}
 
 
