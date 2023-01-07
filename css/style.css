@@ -792,17 +792,15 @@ section:nth-child(even) {
 }
 
 /* ADDED CSS HERE */
-<<<<<<< HEAD
 
 
 .img-resize{
   width: 220px;
   height: 250px;
-=======
+}
 .img-resize {
   width: 223px;
   height: 340px;
->>>>>>> ebcbaa232f727f78670344408ae128517cca7d24
 }
 .swiper-wrapper {
   width: 100%;
@@ -942,17 +940,12 @@ section:nth-child(even) {
   padding: 20px;
   padding-right: 20px;
 }
-<<<<<<< HEAD
-
-
-=======
- */
  
  /* donts css */
 .donts {
   margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 25px;
+  margin-right:25px;
+  margin-top:25px;
 }
 .donts h2 {
   text-align: center;
@@ -1007,4 +1000,3 @@ section:nth-child(even) {
   padding-right: 10px;
   padding-left: 10px;
 }
->>>>>>> ebcbaa232f727f78670344408ae128517cca7d24
