@@ -762,3 +762,31 @@ section:nth-child(even) {
   font-size: 1.5rem;
   line-height: 1.8;
 }
+
+
+
+/* ADDED CSS HERE */
+.img-resize{
+  width: 223px;
+  height: 340px;
+}
+.swiper-wrapper{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; 
+  
+}
+.swiper-wrapper-2{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; 
+  
+}
+/* .swiper-slide box{
+  justify-content: sp;
+}
+ */
+
+
