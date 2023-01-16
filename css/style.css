@@ -61,6 +61,7 @@ section:nth-child(even) {
 }
 
 .heading {
+  margin-top: 60px;
   text-align: center;
   padding-bottom: 2rem;
   text-shadow: var(--text-shadow);
@@ -790,10 +791,6 @@ section:nth-child(even) {
   gap: 2rem;
 }
 
-.services {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/765/958/389/colorful-abstract-design-background-wallpaper-preview.jpg);
-  background-size: cover;
-}
 
 .services .row {
   display: flex;
